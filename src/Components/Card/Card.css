@@ -1,0 +1,30 @@
+.card{
+    padding: 8px;
+    width: 20%;
+    margin:5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow:  0 3px 5px rgba(0,0,0,.20);
+}
+
+.icon{
+    cursor: pointer;
+    margin: 5px;
+}
+.icon-btn{
+    height: 30px;
+    width: 25px;
+
+    background-color: #fff;
+}
+.icon-div{
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+   .card{
+       width: 80%;
+       margin: 10px auto;
+   }
+    }

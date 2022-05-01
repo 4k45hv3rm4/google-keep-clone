@@ -1,0 +1,10 @@
+.active-btn{
+    background-color: #FEEFC3; 
+}
+.inactive-btn{
+background-color: #fff;
+}
+.title{
+    /* padding-left: 20px; */
+    margin-left: 20px;
+}

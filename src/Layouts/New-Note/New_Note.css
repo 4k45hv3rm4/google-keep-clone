@@ -1,0 +1,29 @@
+.new-note-div{
+    
+    height: 100px;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* margin:20px */
+    margin: 20px auto;
+}
+.note-div{
+    box-shadow:  0 3px 5px rgba(0,0,0,.20);
+    border-radius: 8px;
+}
+
+.submit-btn{
+   border:none;
+   background-color: #fff;
+   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .new-note-div{
+      width: 300px !important;
+      padding: 5px;
+      margin: 15px auto;
+
+    }
+    }

@@ -1,0 +1,20 @@
+
+.logo{
+    font-weight: 700;
+    font-size: 22px;
+    padding: 20px;
+    width: 15%;
+    text-align: center;
+    
+}
+
+.navbar-container{
+    box-shadow:  0 3px 5px rgba(0,0,0,.20);
+    border-bottom: 0.01em solid #333;
+}
+
+@media only screen and (max-width: 600px) {
+   .navbar-container, .search-input{
+    width: 100%;
+   }
+  }
